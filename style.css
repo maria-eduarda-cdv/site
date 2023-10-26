@@ -1,0 +1,131 @@
+body{
+    background-color: gray;
+    background-size: 1500px, 20px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: xx-large;
+    text-align: center;
+
+      
+    }
+
+    .cadastrodiv{
+        background-color: rgba(255, 255, 255, 0.959);
+        height: max-content;
+        border: solid;
+        width: max-content;
+        padding: 58px;
+        margin: auto;
+        border-width: 0px;
+        padding-bottom: 10px;
+        border-radius: 16px;
+        border-color: #7a77d9b7;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button{
+      background-color:#8FC153;
+      width: 277px;
+      height: 30px;
+      border-radius: 15px;
+      font-size: medium;
+      color: white;
+      margin-bottom: 10PX;
+      border: none;
+    }
+    h3{ color:#011126;
+    }
+    h1{
+      color: rgb(255, 255, 255) ;
+      margin: 0;
+    }
+    button:hover {
+        background-color: gray;
+      }
+   a{
+    font-size: small;
+    color: #8FC553;
+   }
+   h3{
+    color: #707677;
+   }
+   input::placeholder{
+    color: white
+    
+   }
+   .inputCadastro{
+    background-color: hsl(192, 91%, 50%);
+    width: 245;
+    height: 24px;
+    border-radius: 15px;
+    text-align:start;
+    font-size: large;
+    border: 5px solid white;
+    box-shadow: 0px 0px 1px 2px #0BC5F3;
+    outline: rgb(107, 107, 211);
+    margin-bottom: 12px;
+    margin-top: 0;
+    padding-left: 0.5em;
+   }
+
+   .inputlogin{
+    
+    background-color: hsl(192, 91%, 50%);
+    width: 245;
+    height: 24px;
+    border-radius: 15px;
+    text-align:start;
+    font-size: large;
+    border: 5px solid white;
+    box-shadow: 0px 0px 1px 2px #0BC5F3;
+    outline: rgb(107, 107, 211);
+    margin-bottom: 12px;
+    margin-top: 0;
+    padding-left: 0.5em;
+   }
+   .logindiv{
+    background-color: rgba(255, 255, 255, 0.959);
+    height: min-content;
+    border: solid;
+    width: max-content;
+    padding: 58px;
+    margin: auto;
+    border-width: 0px;
+    padding-bottom: 12px;
+    border-radius: 16px;
+    border-color: #000000b7;
+   }
+   .d{
+    background-color: rgba(255, 255, 255, 0.959);
+    height: min-content;
+    border: solid;
+    width: max-content;
+    padding: 20px;
+    margin: auto;
+    border-width: 0px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+    border-color: #000000b7;
+   
+   }
+
+   .material-symbols-outlined{
+    margin-left: px;
+   }
+   .areaInput{
+    background-color: #7a77d900;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+   }
